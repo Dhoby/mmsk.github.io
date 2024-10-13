@@ -27,7 +27,10 @@ body{
 }
 
 .container {
-            position: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
             display: flex;
             gap: 20px;
         }
@@ -37,7 +40,7 @@ body{
             height: 150px;
             background-color: #3498db;
             border-radius: 50%;
-            position: center;
+            position: relative;
             display: flex;
             justify-content: center;
             align-items: center;
